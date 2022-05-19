@@ -6,4 +6,5 @@ const PEOPLE: usize = 10;
 
 fn main() {
     let han = setup(PEOPLE, POS_PEOPLE, NEG_PEOPLE);
+    println!("{han}")
 }
